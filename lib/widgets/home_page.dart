@@ -21,7 +21,12 @@ class HomePage extends StatelessWidget {
                       color: Colors.teal,
                       fontSize: 46,
                       fontWeight: FontWeight.bold),
+
                 )
+                ,Text("December 27",
+                style: TextStyle(
+                  color: Colors.teal
+                ),)
               ],
             ),
           ))
