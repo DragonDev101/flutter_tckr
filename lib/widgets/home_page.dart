@@ -21,14 +21,33 @@ class HomePage extends StatelessWidget {
                       color: Colors.teal,
                       fontSize: 46,
                       fontWeight: FontWeight.bold),
+                ),
+                Text("December 27",
+                    style: TextStyle(
+                        color: Colors.teal,
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold)),
+                SizedBox(
+                  height: 50,
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintStyle: TextStyle(color: Colors.teal),
+                      hintText: "Search",
+                      prefix: Icon(Icons.search),
+                      fillColor: Colors.teal,
+                      filled: true,
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(
+                          width: 0, style: BorderStyle.none,
 
+                        ),
+                            borderRadius: BorderRadius.all(Radius.circular(16)),
+
+                    ),
+                  )
                 )
-                ,Text("December 27",
-                style: TextStyle(
-                  color: Colors.teal
-                ),)
-              ],
-            ),
+              ),
+            ]),
           ))
     ]));
   }
